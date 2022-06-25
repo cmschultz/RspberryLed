@@ -1,6 +1,6 @@
 import RPi.GPIO as GPIO         #Importa a biblioteca das GPIO
 
-                                #Importa a biblioteca de tempo
+import time                               #Importa a biblioteca de tempo
 
 GPIO.setmode(GPIO.BOARD)   #Configura o modo de definição de pinos como BOARD (contagem de pinos da placa)
 
